@@ -9,4 +9,4 @@ this project relaying on the reverse engeniring fire red and leaf green project 
 https://github.com/pret/pokefirered
 
 # current Progress on files recreated:
-    * species_info.h - Done
+ * species_info.h - Done
