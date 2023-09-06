@@ -14,3 +14,5 @@ https://github.com/pret/pokefirered
 
 # current Progress on files recreated:
  * species_info.h - Done
+ * cry_ids.h - Done
+ * evolution.h - Done
