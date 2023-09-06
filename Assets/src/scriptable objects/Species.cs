@@ -45,5 +45,6 @@ public class Species : ScriptableObject {
     [SerializeField] private EvolutionMethod[] evolutions;
 
     [SerializeField] private AudioClip cry;
+    [SerializeField] private Move[] eggMoves;
 }
 
