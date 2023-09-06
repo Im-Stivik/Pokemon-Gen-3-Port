@@ -43,5 +43,7 @@ public class Species : ScriptableObject {
     [SerializeField] private bool noFlip;
     
     [SerializeField] private EvolutionMethod[] evolutions;
+
+    [SerializeField] private AudioClip cry;
 }
 
