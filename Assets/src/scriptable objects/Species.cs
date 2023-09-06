@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Species", menuName = "Pokemon Species", order = 0)]
+[CreateAssetMenu(fileName = "MissingNo", menuName = "Pokemon/Species", order = 0)]
 public class Species : ScriptableObject {
 
     [SerializeField]private ushort baseHP;
@@ -41,5 +41,7 @@ public class Species : ScriptableObject {
     [SerializeField] private ushort safariZoneFleeRate;
     [SerializeField] private BodyColor bodyColor;
     [SerializeField] private bool noFlip;
+    
+    [SerializeField] private EvolutionMethod[] evolutions;
 }
 
